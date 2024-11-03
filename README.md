@@ -33,20 +33,20 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+[![Screenshot1](Add screenshot 1 here with proper name)](https://github.com/alka-003/Adios/blob/main/Screenshot%20(1).png)
+SS of Step 1
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+[![Screenshot2](Add screenshot 2 here with proper name)](https://github.com/alka-003/Adios/blob/main/Screenshot%20(2).png)
+SS of Step 2
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+[![Screenshot3](Add screenshot 3 here with proper name)](https://github.com/alka-003/Adios/blob/main/Screenshot%20(3).png)
+SS of Step 3
 
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Aswin]: [Code dev]
+- [Albin]: [Code dev]
+- [Alka]: [Code dev]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
