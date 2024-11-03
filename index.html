@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillow Fight Guide</title>
+    <link rel="stylesheet"href="styles.css">
+   <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pillow Fight Guide</h1>
+        <p>Welcome to your ultimate pillow fight guide!</p>
+    </header>
+    
+    <main>
+        <div id="step1" class="step active">
+            <h2>Step 1: Gather Your Pillows</h2>
+            <p>Collect as many pillows as you can. The more, the merrier! Here are some types you might consider:</p>
+            <ul>
+                <li>Soft pillows for a gentle touch</li>
+                <li>Decorative pillows for extra flair</li>
+                <li>Firm pillows for a more intense battle</li>
+            </ul>
+            <p>Make sure they are clean and fluffy!</p>
+            <button onclick="nextStep(1)">Next: Choose Your Battle Area</button>
+        </div>
+
+        <div id="step2" class="step">
+            <h2>Step 2: Choose Your Battle Area</h2>
+            <p>Pick a safe and spacious area for your pillow fight. Here are some suggestions:</p>
+            <ul>
+                <li>Your living room (clear out breakables!)</li>
+                <li>A bedroom with plenty of space</li>
+                <li>A large area with soft flooring (like a carpet)</li>
+            </ul>
+            <p>Ensure that there are no obstacles that could cause injury.</p>
+            <button onclick="nextStep(2)">Next: Set the Rules</button>
+            <button onclick="prevStep(1)">Back: Gather Your Pillows</button>
+        </div>
+
+        <div id="step3" class="step">
+            <h2>Step 3: Set the Rules</h2>
+            <p>Before starting, it's important to set some ground rules:</p>
+            <ul>
+                <li>No hitting too hard!</li>
+                <li>Aim for the body, not the face.</li>
+                <li>Decide on a time limit or rounds.</li>
+                <li>Agree on a safe word to stop the fight if needed.</li>
+            </ul>
+            <p>Having clear rules makes the fight more fun and safe!</p>
+            <button onclick="nextStep(3)">Next: Start the Fight!</button>
+            <button onclick="prevStep(2)">Back: Choose Your Battle Area</button>
+        </div>
+
+        <div id="step4" class="step">
+            <h2>Step 4: Start the Fight!</h2>
+            <p>Now that you’re prepared, it’s time to start the pillow fight!</p>
+            <p>Remember to:</p>
+            <ul>
+                <li>Have fun and enjoy the moment!</li>
+                <li>Follow the rules you set earlier.</li>
+                <li>Take breaks if needed.</li>
+            </ul>
+            <p>Happy fighting!</p>
+            <button onclick="prevStep(3)">Back: Set the Rules</button>
+        </div>
+    </main>
+
+   
+</body>
+</html>
